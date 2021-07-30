@@ -7,22 +7,30 @@ body{
     background-color: rgb(203, 247, 248);
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.main-container{
+.game{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 300px;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
     background-color: darkgreen;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
 }
 
-.game-container{
-    background-color: crimson;
-    height: 10px;
-    width: 10px;
+.game-pixels{
+    background-color: rgb(255, 255, 255);
+    height: calc(100% / 5);
+    width: calc(100% / 5);
+    border: black solid 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hover-color{
+    background-color: rgb(64, 18, 230);
 }
