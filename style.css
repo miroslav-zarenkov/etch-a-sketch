@@ -1,7 +1,4 @@
-:root{
-    --columnsNumber: 64;
-    --rowsNumber: 64;
-}
+
 
 html {
     height: 100%;
@@ -20,8 +17,8 @@ body{
 
 .game{
     display: grid;
-    grid-template-columns: repeat(var(--columnsNumber), 1fr);
-    grid-template-rows: repeat(var(--rowsNumber), 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     justify-content: center;
     align-items: center;
     height: 600px;
