@@ -11,9 +11,10 @@
     </header>
     <div class="main">
         <div class="game-options">
-            <button id='clear-button' onclick="removeColor">CLEAR</button>
+            <button id="clear-button" onclick="removeColor">CLEAR</button>
             <input type="range" id="field-size" name="field-size" min="1" value="8" max="64" onchange="changeFieldSizeText()">
             <p id='field-size-text'></p>
+            <input type="color" id="pixel-color" name="pixel-color" value="#4012e6" oninput="changeColor">
         </div>
         
         <div class="game">
